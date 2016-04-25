@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="CPP-A.04_GLDraw2D" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\fltk\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="CPP-A.04_GLDraw2D">
+         <Option output="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/bin/Debug/CPP-A.04_GLDraw2D" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/bin/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLM_FORCE_RADIANS" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 CPP-A.04_GLDraw2D" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="CPP-A.04_GLDraw2D/fast">
+         <Option output="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/bin/Debug/CPP-A.04_GLDraw2D" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/bin/Debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLM_FORCE_RADIANS" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 CPP-A.04_GLDraw2D/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/src/CmdHandler.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/src/Drawing.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/src/GLDraw2D.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/src/Geom.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/_COMMON/src/TrackBall.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/_COMMON/src/UtilFLTK.cpp">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/inc/CmdHandler.h">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/inc/Drawing.h">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/inc/Geom.h">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/_COMMON/inc/TrackBall.h">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/_COMMON/inc/UtilFLTK.h">
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/../../../../../../usr/lib/fltk/FLTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/../../../../../../usr/lib/fltk/FLTKLibraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/tscheims/Documents/BFH/CPP_Projects_WIN/CPP-A.04_GLDraw2D/../../../../../../usr/lib/fltk/FLTKLibraries-noconfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
