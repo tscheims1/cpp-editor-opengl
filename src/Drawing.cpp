@@ -94,27 +94,23 @@ void CDrawing::clearDrawing( void )
 void CDrawing::appendFigure(EFigType figtype, const CPoint& p1, const CPoint& p2)
 ///////////////////////////////////////////////////////////////////////////////
 {
-	// TODO: add code to append figure to list
-	Geometry* geom =0;
 	//{ FIG_POINT=0x00, FIG_LINE=0x10, FIG_RECT=0x20, FIG_CIRCLE=0x30 }
     switch(figtype)
     {
         case FIG_POINT:
-            geom = new CPoint(p1);
+            objects.push_back(new CPoint(p1));
         break;
         case FIG_LINE:
-            geom = new CLine(p1,p2);
+            objects.push_back(new CLine(p1,p2));
             break;
         case FIG_RECT:
-            geom = new CRect(p1,p2);
+            objects.push_back(new CRect(p1,p2));
             break;
         case FIG_CIRCLE:
-            geom = new CCircle(p1,p1.getDistance(p2));
+            objects.push_back(new CCircle(p1,p1.getDistance(p2)));
             break;
 
     }
-    objects.push_back(geom);
-
 }
 // CDrawing::appendFigure() ///////////////////////////////////////////////////
 
@@ -145,6 +141,9 @@ void CDrawing::removeFigure( void )
 void CDrawing::loadDrawingFile(const string& filename)
 ///////////////////////////////////////////////////////////////////////////////
 {
+    CCircle c;
+    c.load("20 30 10");
+    objects.push_back(new CCircle(c));
 	// TODO: add drawing file reading code here
 }
 // CDrawing::loadDrawingFile() ////////////////////////////////////////////////

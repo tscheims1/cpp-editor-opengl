@@ -13,6 +13,7 @@ history: 1.00 - initial version of OpenGL drawing application
 #include <math.h>
 #include <iostream>
 #include <algorithm>
+#include <sstream>
 using namespace std;
 
 
@@ -89,6 +90,15 @@ unsigned int CPoint::getDistance(const CPoint& pt) const
     float deltaY = fabs(pt.y - this->y);
 
     return sqrt(deltaX*deltaX + deltaY*deltaY);
+}
+void CPoint::load(string line)
+{
+    stringstream os;
+    os << line;
+    float p1,p2,radius;
+    os >> p1 >> p2;
+    set(p1,p2);
+
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -204,7 +214,14 @@ void CLine::draw( void )
 	glVertex2f(_P2.x, _P2.y);
 	glEnd();
 }
-
+void CLine::load(string line)
+{
+    stringstream os;
+    os << line;
+    float p1,p2,p3,p4;
+    os >> p1 >> p2 >> p3 >> p4;
+    set(p1,p2,p3,p4);
+}
 
 ///////////////////////////////////////////////////////////////////////////////
 // class:    CRect
@@ -304,7 +321,14 @@ void CRect::list( void )
 {
 	cout << "CRect  :" << endl; _P1.list(); _P2.list(); cout << endl;
 }
-
+void CRect::load(string line)
+{
+    stringstream os;
+    os << line;
+    float p1,p2,p3,p4;
+    os >> p1 >> p2 >> p3 >> p4;
+    set(p1,p2,p3,p4);
+}
 
 ///////////////////////////////////////////////////////////////////////////////
 // class:    CRect
@@ -441,4 +465,12 @@ void CCircle::draw( void )
 		glTranslatef((GLfloat)_P1.x, (GLfloat)_P1.y, 0.0);
 		gluDisk(gluNewQuadric(), _Radius, _Radius, 100, 1);
 	glPopMatrix();
+}
+void CCircle::load(string line)
+{
+    stringstream os;
+    os << line;
+    float p1,p2,radius;
+    os >> p1 >> p2 >> radius;
+    set(p1,p2,radius);
 }
